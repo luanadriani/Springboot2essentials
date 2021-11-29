@@ -29,7 +29,7 @@ public class SpringClient {
                 null,
                 new ParameterizedTypeReference<>() {});
 
-        System.out.println("TESTE: " + exchange.getBody());
+        System.out.println("TESTE 2: " + exchange.getBody());
 
     }
 }
